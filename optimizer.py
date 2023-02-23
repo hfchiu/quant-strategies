@@ -7,7 +7,7 @@ from random import random, shuffle
 
 if __name__ == "__main__":
 	# setup strategy
-	strategy = Momentum
+	strategy = momentum
 	cerebro = bt.Cerebro(optreturn=False, stdstats=False)
 	cerebro.optstrategy(strategy, test=range(5,35,5))
 
